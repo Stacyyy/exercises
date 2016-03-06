@@ -1,0 +1,23 @@
+h1,h2,h3,h4
+{
+    color: #56968C;
+    display: inline-block;
+    padding: 5px;
+}
+.container{position: relative; float: left;}
+.line{
+	position: relative;
+	float: left;
+	width: 4px;
+	background-color: #B3E3E4;
+	margin: 0 30px 0 30px;
+}
+
+.on{
+	animation: mymove 0.8s;
+}
+@keyframes mymove
+{
+	0%{transform: translate(30px,0px);} 
+	100%{transform: translate(0px,0px);}
+}/*it's better than use 'position: absolute'*/
